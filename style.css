@@ -59,6 +59,7 @@ body {
 	align-items: center;
 	width: 900px;
 	padding: 100px 0;
+	gap: 30px;
 }
 
 .hero-left {
