@@ -1,7 +1,9 @@
 body {
 	display: flex;
 	flex-direction: column;
-	width: 100vw;
+	width: 70vw;
+	margin: 0 auto;
+	min-width: 500px;
 }
 
 .header {
@@ -13,8 +15,12 @@ body {
 
 }
 
-.right {
-
+.header .right .links {
+	display: flex;
+	list-style: none;
+	gap: 10px;
+	margin: 0;
+	padding: 0;
 }
 
 .hero {
@@ -54,7 +60,7 @@ body {
 }
 
 .quote-attribution {
-
+	text-align: right;
 }
 
 .cta {
@@ -71,5 +77,5 @@ body {
 }
 
 .footer {
-
+	text-align: center;
 }
