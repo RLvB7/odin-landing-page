@@ -1,9 +1,12 @@
 body {
 	display: flex;
+	flex-direction: column;
+	width: 100vw;
 }
 
 .header {
-
+	display: flex;
+	justify-content: space-between;
 }
 
 .logo {
@@ -15,11 +18,13 @@ body {
 }
 
 .hero {
-
+	display: flex;
+	justify-content: space-between;
 }
 
 .hero-left {
-
+	display: flex;
+	flex-direction: column;
 }
 
 .hero-right {
@@ -27,7 +32,8 @@ body {
 }
 
 .main-items {
-
+	display: flex;
+	flex-direction: column;
 }
 
 .main-items-caption {
@@ -35,11 +41,12 @@ body {
 }
 
 .main-items-tiles {
-
+	display: flex;
 }
 
 .quote {
-
+	display: flex;
+	flex-direction: column;
 }
 
 .quote-text {
@@ -51,11 +58,12 @@ body {
 }
 
 .cta {
-
+	display: flex;
 }
 
 .cta-text {
-
+	display: flex;
+	flex-direction: column;
 }
 
 .cta-signup {
@@ -63,5 +71,5 @@ body {
 }
 
 .footer {
-	
+
 }
